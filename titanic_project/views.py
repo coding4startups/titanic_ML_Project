@@ -6,7 +6,6 @@ from . import ML_Model
 def home(request):
 	return render(request, 'index.html')
 
-
 def result(request):
 	pclass 		= int(request.GET['pclass'])
 	sex 		= int(request.GET['sex'])
